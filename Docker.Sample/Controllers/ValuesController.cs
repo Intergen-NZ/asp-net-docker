@@ -10,7 +10,7 @@ namespace Docker.Sample.Controllers
         [HttpGet]
         public IEnumerable<string> Get()
         {
-            return new string[] { "1", "1", "5", "8" };
+            return new string[] { "8", "1", "5", "7" };
         }
 
         // GET api/values/5

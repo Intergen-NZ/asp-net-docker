@@ -1,0 +1,9 @@
+web:
+ build: ./
+ ports: 
+  - "5000:5000"
+ #volumes:
+  #- /home/development/Spikes/DockerSample/:/src/docker-sample 
+ #working_dir: /src/docker-sample/Docker.Sample/
+ 
+ #command: [dnx, web]  
