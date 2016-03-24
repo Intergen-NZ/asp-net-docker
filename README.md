@@ -3,7 +3,7 @@ An example project which demonstrates hosting asp.net in a <a href="https://www.
 
 
 ### Get Docker for windows
-1. <a href="https://docs.docker.com/windows/">Download Docker toolbox.
+1. <a href="https://docs.docker.com/windows/">Download Docker toolbox</a>.
 2. Once downloaded you can get up and running with docker straight away by typing ```Docker Quickstart Terminal``` in the startmenu. e.g. to run a redis instance just type:
 ```
 $ docker run -it redis /bin/bash
@@ -21,7 +21,6 @@ root@ae853a6dc052:/data# redis-cli
 127.0.0.1:6379> sinter nz uk
 1) "richard"
 ```
-
 
 ### Run the asp.net example
 1. By default Virtualbox only shares certain folders on your machine so you'll need to add a shared folder for your dev files. I found <a href="http://blog.pavelsklenar.com/5-useful-docker-tip-and-tricks-on-windows/">this page</a> useful for setting this up. (NOTE: Use the Virtual Box terminal instead of  the Docker Quickstart Terminal else the mounting won't work)
